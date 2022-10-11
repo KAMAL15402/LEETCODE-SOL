@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool increasingTriplet(vector<int>& nums) {
-          int n = nums.size();    //size of the array
+          int n = nums.size();  
         
         if(n < 3)  
             return false;
